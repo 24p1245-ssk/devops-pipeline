@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/24p1245-ssk/Weather-App.git'
+                echo 'hello world'
             }
         }
 
